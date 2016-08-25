@@ -4,8 +4,8 @@ angular.module('fileUpload').config(function($stateProvider, $urlRouterProvider)
 
     $stateProvider.state('upload', {
         url: '/upload',
-        templateUrl: 'partial/upload/upload.html',
-        controller: 'UploadCtrl'
+        templateUrl: 'partial/upload/upload.html'
+        
     });
     /* Add New States Above */
     $urlRouterProvider.otherwise('/upload');
